@@ -6,16 +6,16 @@ This is a scalable and modular **eCommerce backend system** built using the **mi
 
 ## 📦 Microservices Overview
 
-| Service       | Description                                                      |
-|---------------|------------------------------------------------------------------|
-| **Auth**      | Handles user authentication and JWT-based login/registration.   |
-| **User**      | Manages user profiles and related data.                         |
-| **Products**  | Manages product listing, creation, and updates.                 |
-| **Inventorys**| Tracks and manages inventory stock.                             |
-| **Cart**      | Handles shopping cart operations.                              |
-| **Order**     | Manages order placement, status, and history.                   |
-| **Email**     | Sends emails for notifications, verifications, etc.            |
-| **API Gateway** | Acts as the single entry point for routing and load balancing.|
+| Service         | Description                                                    |
+| --------------- | -------------------------------------------------------------- |
+| **Auth**        | Handles user authentication and JWT-based login/registration.  |
+| **User**        | Manages user profiles and related data.                        |
+| **Products**    | Manages product listing, creation, and updates.                |
+| **Inventorys**  | Tracks and manages inventory stock.                            |
+| **Cart**        | Handles shopping cart operations.                              |
+| **Order**       | Manages order placement, status, and history.                  |
+| **Email**       | Sends emails for notifications, verifications, etc.            |
+| **API Gateway** | Acts as the single entry point for routing and load balancing. |
 
 ---
 
@@ -36,7 +36,7 @@ ecommerce-microservice/
 ├── docker-compose.yml       # Docker orchestration file
 └── .gitignore               # Git ignored files list
 
-````
+```
 
 ---
 
@@ -54,6 +54,8 @@ ecommerce-microservice/
    ```bash
    git clone https://github.com/arifnextdev/ecommerce-microservice.git
    cd ecommerce-microservice
+   ```
+
 ````
 
 2. **Run using Docker Compose**
@@ -100,13 +102,6 @@ GET http://localhost:<auth_port>/api/auth/health
 
 ---
 
-## 📬 Contact
-
-**Developer**: [Arif NextDev](https://github.com/arifnextdev)
-📧 **Email**: [arifnextdev@gmail.com](mailto:arifnextdev@gmail.com)
-
----
-
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -116,3 +111,4 @@ This project is open source and available under the [MIT License](LICENSE).
 > 🚧 This project is under active development. Feedback and contributions are welcome!
 
 
+````
